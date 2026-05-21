@@ -10,6 +10,7 @@ df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
 df['target'] = iris.target
 print(df.head())
 print(df.describe())
+print("attempt 2 test")
 print("\nTragetNames:", iris.target_names)
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
